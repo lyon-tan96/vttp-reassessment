@@ -1,0 +1,36 @@
+<table>
+    <thead>
+        <th>
+            <img src={{postDetails.image}}>
+        </th>
+    </thead>
+    <tr>
+        <td>Posting Id: {{postDetails.postingId}}</td>
+    </tr>
+    <tr>
+        <td>Posting Date: {{postDetails.postingDate}}</td>
+    </tr>
+    <tr>
+        <td>Name: {{postDetails.name}}</td>
+    </tr>
+    <tr>
+        <td>Email: {{postDetails.email}}</td>
+    </tr>
+    <tr>
+        <td>Phone: {{postDetails.phone}}</td>
+    </tr>
+    <tr>
+        <td>Title: {{postDetails.title}}</td>
+    </tr>
+    <tr>
+        <td>Description: {{postDetails.description}}</td>
+    </tr>
+    <tr>
+        <td>
+            <button type="button" (click)="goBack()">Cancel</button>
+        </td>
+        <td>
+            <button type="button" (click)="confirm()">Confirm</button>
+        </td>
+    </tr>
+</table>
