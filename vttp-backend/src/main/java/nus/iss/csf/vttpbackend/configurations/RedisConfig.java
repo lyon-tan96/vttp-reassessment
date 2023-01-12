@@ -23,7 +23,7 @@ public class RedisConfig {
 	// @Value("${spring.redis.database}")
 	// private Integer redisDatabase;
 
-    @Value("{REDIS_API_KEY}")
+    @Value("${REDIS_API_KEY}")
     private String API_KEY;
 
 	@Bean
@@ -33,7 +33,7 @@ public class RedisConfig {
 
         config.setHostName(redisHost);
         config.setPort(redisPort);
-        config.setPassword("A0mgPcdAxiUK9tSkeSRYw8bbyAHEjz7d");
+        config.setPassword(API_KEY);
         config.setUsername("default");
         // config.setDatabase(11423841);
 

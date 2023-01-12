@@ -23,8 +23,6 @@ import com.amazonaws.services.s3.model.CannedAccessControlList;
 import com.amazonaws.services.s3.model.ObjectMetadata;
 import com.amazonaws.services.s3.model.PutObjectRequest;
 
-import jakarta.json.Json;
-import jakarta.json.JsonObject;
 import nus.iss.csf.vttpbackend.models.Post;
 import nus.iss.csf.vttpbackend.models.Response;
 import nus.iss.csf.vttpbackend.services.PostService;
